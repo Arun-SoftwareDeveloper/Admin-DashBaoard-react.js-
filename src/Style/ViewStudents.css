@@ -1,0 +1,74 @@
+/* ViewStudent.css */
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: dodgerblue;
+  font-size: 50px;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: lighter;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+
+.student-details {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+/* Add some spacing between each student's details */
+.student-details + .student-details {
+  margin-top: 20px;
+}
+
+.back-btn {
+  margin-left: 270px;
+  position: relative;
+  top: 40px;
+}
+
+.default {
+  color: rgb(89, 108, 218);
+}
+p {
+  color: rgb(73, 105, 135);
+}
+
+.edit-btn {
+  background-color: rgb(121, 199, 211);
+  width: 80px;
+  height: 30px;
+  border-radius: 3px;
+  position: relative;
+  left: 30px;
+  top: 20px;
+}
+
+.delete-btn {
+  background-color: rgb(178, 85, 95);
+  width: 80px;
+  height: 30px;
+  border-radius: 3px;
+  position: relative;
+  left: 50px;
+  top: 20px;
+}
+
+.view-box {
+  box-shadow: 1px 3px 3px 1px gray;
+  border: 1px solid gray;
+  border-radius: 10px;
+  width: 1000px;
+  padding: 30px;
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  row-gap: 30px;
+}
